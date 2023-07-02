@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1015.0" prefWidth="1920.0" style="-fx-background-color: #1f2013;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pag_principal.RegistroPagController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="75.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Registro:" GridPane.rowIndex="1">
+         <font>
+            <Font size="31.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="500.0" />
+         </GridPane.margin></Text>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="396.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos:" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="396.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Teléfono:" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="396.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Número de tarjeta (opcional):" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="400.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Imagen de perfil (opcional):" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets left="400.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <TextField fx:id="Nombre_text" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="340.0" promptText="Nombre" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="100.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="Apellido_text" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="340.0" promptText="Apellidos" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="100.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="Telefono_text" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="340.0" promptText="Teléfono" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="100.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="Nickname_text" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="340.0" promptText="Nickname" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="100.0" />
+         </GridPane.margin></TextField>
+      <PasswordField fx:id="Pass_text" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="340.0" promptText="Password" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <GridPane.margin>
+            <Insets left="100.0" />
+         </GridPane.margin></PasswordField>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Repetir la contraseña:" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="400.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <PasswordField fx:id="Pass_text2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="340.0" promptText="Repeat Password" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="100.0" />
+         </GridPane.margin></PasswordField>
+      <TextField fx:id="Tarjeta_text" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="340.0" promptText="Número de Tarjeta" GridPane.columnIndex="1" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="100.0" />
+         </GridPane.margin></TextField>
+      <Label text="SCV seguridad de tarjeta (Opcional):" textFill="WHITE" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="400.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="SCV_text" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="340.0" promptText="3 dígitos de seguridad de Tarjeta" GridPane.columnIndex="1" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="100.0" />
+         </GridPane.margin></TextField>
+      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="6">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña:">
+               <VBox.margin>
+                  <Insets left="228.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Label text="(mínimo 6 carácteres, solo letras y números)" textFill="#9a5454">
+               <VBox.margin>
+                  <Insets left="228.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets left="170.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="5">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Nickname: " wrappingWidth="266.033203125">
+               <VBox.margin>
+                  <Insets left="226.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Label text="(Debe ser único para ti y sin espacios)" textFill="#9a5454">
+               <VBox.margin>
+                  <Insets left="226.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets left="170.0" />
+         </GridPane.margin>
+      </VBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="61.0" prefWidth="595.0" spacing="60.0" GridPane.columnIndex="1" GridPane.rowIndex="11">
+         <children>
+            <Button fx:id="Registro_boton" mnemonicParsing="false" onAction="#mRegistrarse" prefHeight="50.0" prefWidth="267.0" style="-fx-background-color: #82a569; -fx-background-radius: 10;" text="Guardar datos y Registrarse">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></Button>
+            <Button fx:id="Menu_boton" mnemonicParsing="false" onAction="#mMenu" prefHeight="50.0" prefWidth="210.0" style="-fx-background-color: #601716; -fx-background-radius: 10;" text="Volver al menú" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+         </children>
+         <GridPane.margin>
+            <Insets left="110.0" />
+         </GridPane.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="10">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="73.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+         <padding>
+            <Insets right="220.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="imagenClub" fitHeight="129.0" fitWidth="445.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" />
+   </padding>
+</GridPane>

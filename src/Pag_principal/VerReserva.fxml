@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1015.0" prefWidth="1920.0" style="-fx-background-color: #1f2013;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pag_principal.VerReservaController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="81.0" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="43.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="62.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="87.0" minHeight="10.0" prefHeight="83.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#mMenu" prefHeight="44.0" prefWidth="153.0" style="-fx-background-color: #601716; -fx-background-radius: 10; -fx-border-radius: 10;" text="Menú" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="15">
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" prefHeight="57.0" prefWidth="204.0" text="HORARIO" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="9h -10h" textFill="#f3f4ec" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="10h - 11h" textFill="#f3f4ec" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="11h - 12h" textFill="#f3f4ec" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="12h - 13h" textFill="#f3f4ec" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="13h - 14h" textFill="#f3f4ec" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="15h - 16h" textFill="#f3f4ec" GridPane.rowIndex="8">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="16h - 17h" textFill="#f3f4ec" GridPane.rowIndex="9">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="17h - 18h" textFill="#f3f4ec" GridPane.rowIndex="10">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="18h -19h" textFill="#f3f4ec" GridPane.rowIndex="11">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="19h -20h" textFill="#f3f4ec" GridPane.rowIndex="12">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="20h - 21h" textFill="#f3f4ec" GridPane.rowIndex="13">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="21h -22h" textFill="#f3f4ec" GridPane.rowIndex="14">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" prefHeight="47.0" prefWidth="200.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Pista 1:" textFill="#f3f4ec" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Pista 2:" textFill="#f3f4ec" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Pista 3:" textFill="#f3f4ec" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Pista 4:" textFill="#f3f4ec" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" prefHeight="49.0" prefWidth="200.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Pista 5:" textFill="#f3f4ec" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" prefHeight="48.0" prefWidth="200.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Pista 6:" textFill="#f3f4ec" GridPane.columnIndex="6" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_9" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_10" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_11" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_12" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_13" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_15" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="8">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_16" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="9">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_17" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_18" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="11">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_19" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="12">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_20" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="13">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_21" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="14">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_9" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_10" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_11" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_12" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="5">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_13" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="6">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_15" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="8">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_16" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="9">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_17" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_18" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="11">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_19" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="12">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_20" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="13">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_21" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="14">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_9" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_10" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_11" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_12" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="5">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_13" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="6">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_15" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="8">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_9" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_10" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_9" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_10" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_11" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="4">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_12" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="5">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_11" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="4">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_12" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="5">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_13" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="6">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_13" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="6">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_9" alignment="CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_10" alignment="CENTER" prefHeight="61.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_11" alignment="CENTER" prefHeight="81.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="4">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_12" alignment="CENTER" prefHeight="119.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="5">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_13" alignment="CENTER" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="6">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_21" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="14">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_20" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="13">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_19" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="12">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_18" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="11">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_17" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_16" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="9">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_15" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="8">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_16" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="9">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_17" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_18" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="11">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_19" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="12">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_20" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="13">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_21" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="14">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_15" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="8">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_15" alignment="CENTER" prefHeight="68.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="8">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_16" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="9">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_17" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_16" alignment="CENTER" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="9">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_17" alignment="CENTER" prefHeight="67.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_18" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="11">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_18" alignment="CENTER" prefHeight="75.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="11">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_19" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="12">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_19" alignment="CENTER" prefHeight="82.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="12">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_20" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="13">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_20" alignment="CENTER" prefHeight="57.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="13">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_21" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="14">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_21" alignment="CENTER" prefHeight="58.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="14">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #0d160e; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="14h - 15h" textFill="#f3f4ec" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p1_14" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p2_14" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="7">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p3_14" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="7">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p4_14" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="7">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p5_14" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="7">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="p6_14" alignment="CENTER" prefHeight="62.0" prefWidth="100.0" style="-fx-background-color: #82a569; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 10;" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="7">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="50.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="5">
+         <children>
+            <Label fx:id="FechaHoy" text="Label" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <ImageView fx:id="imagenClub" fitHeight="81.0" fitWidth="339.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <padding>
+      <Insets left="15.0" />
+   </padding>
+</GridPane>
